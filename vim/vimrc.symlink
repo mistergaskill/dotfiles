@@ -1,13 +1,30 @@
-# Pathogen
+" Real tabs should be used and should be 4 colums wide.
+set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+
+" Set guides
+set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×
+
+" Set Search Highlighting
+set hlsearch
+
+" Launch Pathogen
 execute pathogen#infect()
 
-# Set Up Solarized Color Scheme
-syntax enable
+" Line Numbers
+set number
+
+" Syntax Highlighting
+filetype on
+syntax on
+
+" Set Up Solarized Color Scheme
 if has('gui_running')
     set background=light
 else
     set background=dark
 endif
+
 set t_Co=16
 let g:solarized_termcolors=16
 colorscheme solarized
+
