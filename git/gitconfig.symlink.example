@@ -1,0 +1,17 @@
+[user]
+	name = AUTHORNAME
+	email = AUTHOREMAIL
+[alias]
+	l = log -n 5
+	co = checkout
+	b = branch
+	d = diff --word-diff
+	lg = "log --graph --oneline --all"
+[color]
+	ui = true
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+[format]
+	pretty = %ar %Cgreen[%h]%Creset %s [%an]
+
