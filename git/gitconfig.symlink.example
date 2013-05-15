@@ -3,6 +3,7 @@
 	email = AUTHOREMAIL
 [alias]
 	l = log -n 5
+	# unused
 	co = checkout
 	b = branch
 	d = diff --word-diff
@@ -14,4 +15,7 @@
 	editor = vim
 [format]
 	pretty = %ar %Cgreen[%h]%Creset %s [%an]
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
 
