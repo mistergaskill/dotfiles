@@ -25,3 +25,6 @@ colorscheme solarized
 set background=dark
 set t_Co=256
 
+" Ignore Files for ctrl+p
+let g:ctrlp_custom_ignore = 'node_modules'
+
